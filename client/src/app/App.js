@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { DigitalClock } from './components';
+import { DigitalClock, DigitalClockExtended } from './components';
 
 import logo from './logo.svg';
 import './App.css';
@@ -20,6 +20,7 @@ const App = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <DigitalClock />
+        <DigitalClockExtended />
         <a
           className="App-link"
           href="https://reactjs.org"

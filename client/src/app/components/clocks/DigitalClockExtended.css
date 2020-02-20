@@ -1,0 +1,15 @@
+.digital-clock-extended {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.digital-clock-extended .digit {
+  background: rgba(255, 255, 255, 1);
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 1);
+
+  padding: 32px;
+  margin: 0 16px;
+}
