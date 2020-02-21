@@ -1,6 +1,7 @@
-import { DigitalClock, DigitalClockExtended } from './clocks';
+import { BinaryClock, DigitalClock, DigitalClockExtended } from './clocks';
 
 export {
+    BinaryClock,
     DigitalClock,
     DigitalClockExtended,
 }

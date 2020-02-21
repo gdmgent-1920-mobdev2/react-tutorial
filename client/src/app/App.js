@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { DigitalClock, DigitalClockExtended } from './components';
+import { BinaryClock, DigitalClock, DigitalClockExtended } from './components';
 
 import logo from './logo.svg';
 import './App.css';
@@ -19,6 +19,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <BinaryClock />
         <DigitalClock />
         <DigitalClockExtended />
         <a
