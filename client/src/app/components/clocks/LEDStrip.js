@@ -5,7 +5,7 @@ const LEDStrip = ({v = 0, amount = 1}) => {
     const [binaryValue, setBinaryValue] = useState(null);
     const leds = [];
     for (let i = 0; i < amount ; i++) {
-        leds.push(<LED isOn={binaryValue !== null ? (binaryValue[i] === '1' ? true : false) : false} />);
+        leds.push(<LED key={i} isOn={binaryValue !== null ? (binaryValue[i] === '1' ? true : false) : false} />);
     }
 
     useEffect(() => {
